@@ -1,36 +1,37 @@
-# TSA Complaint Analysis for Operational Risk Identification
+# Image Classification Using Convolutional Neural Networks (CNNs)
 
 ## Overview
 
-Customer complaints can provide valuable insight into operational performance and emerging organizational risks. This project analyzes TSA complaint data to identify patterns of complaint concentration, accelerating risk categories, and potential indicators of operational stress.
+This project demonstrates the development and evaluation of a Convolutional Neural Network (CNN) using the MNIST handwritten digit dataset.
 
-The goal is to support risk-informed oversight decisions and prioritize areas requiring increased attention.
+The project explores the fundamentals of deep learning and computer vision by training a CNN to recognize handwritten digits and evaluating classification performance through accuracy metrics and confusion matrices.
 
 ## Business Problem
 
-Rapid increases in complaint activity may indicate:
+Image classification technologies are widely used in:
 
-- Operational breakdowns
-- Process failures
-- Resource constraints
-- Customer service deficiencies
-- Regulatory exposure
+- Document processing
+- Medical imaging
+- Manufacturing quality control
+- Security systems
+- Autonomous systems
 
-Understanding where complaints are concentrated can help organizations allocate oversight resources more effectively.
+This project demonstrates foundational techniques used in modern computer vision applications.
 
 ## Project Objectives
 
-- Identify high-growth complaint categories
-- Detect operational stress indicators
-- Analyze complaint concentration patterns
-- Support audit prioritization
-- Inform risk-based oversight strategies
+- Load and prepare image data
+- Build a CNN architecture
+- Train a deep learning model
+- Evaluate classification accuracy
+- Analyze prediction performance
 
 ## Technologies Used
 
-- Python
-- Pandas
+- TensorFlow
+- Keras
 - NumPy
+- Pandas
 - Matplotlib
 - Seaborn
 
@@ -38,40 +39,47 @@ Understanding where complaints are concentrated can help organizations allocate 
 
 ### Data Preparation
 
-- Data cleaning
-- Category standardization
-- Trend preparation
+- Load MNIST dataset
+- Normalize image values
+- Prepare training and testing sets
 
-### Trend Analysis
+### CNN Architecture
 
-- Complaint growth rates
-- Complaint concentration
-- Airport-level comparisons
+The network consists of:
 
-### Risk Assessment
+- Convolutional layers
+- Pooling layers
+- Fully connected layers
+- Softmax output layer
 
-- Identification of emerging risk categories
-- Analysis of persistent complaint clusters
-- Operational risk interpretation
+### Training
+
+The model is trained using supervised learning techniques and evaluated on unseen test data.
+
+### Evaluation
+
+- Accuracy
+- Confusion Matrix
+- Prediction Analysis
 
 ## Results
 
-The project identified complaint categories and locations exhibiting elevated complaint activity, supporting targeted oversight and risk management recommendations.
+The CNN successfully classified handwritten digits with high accuracy, demonstrating the effectiveness of convolutional neural networks for image recognition tasks.
 
 ## Key Skills Demonstrated
 
-- Risk Analytics
-- Operational Intelligence
-- Trend Analysis
-- Regulatory Analytics
-- Data Visualization
+- Deep Learning
+- Computer Vision
+- TensorFlow
+- CNN Architecture Design
+- Model Evaluation
 
 ## Future Improvements
 
-- Predictive complaint forecasting
-- Risk scoring models
-- Geographic visualization dashboards
-- Automated monitoring alerts
+- Data augmentation
+- Hyperparameter optimization
+- Transfer learning
+- More complex image datasets
 
 ## Author
 
